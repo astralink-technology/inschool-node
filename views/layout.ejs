@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="inSchoolApp">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <script type="text/javascript" src="/js/lib/jquery-1.9.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!--font awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--google font pt sans-->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <script src="/js/lib/moment/moment.min.js"></script>
+    <script src="/js/lib/jslinq.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular-route.min.js"></script>
+    <script type="text/javascript" src="/js/lib/angular-scroll.min.js"></script>
+
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/lib/ui-bootstrap-tpls-0.10.0.min.js"></script>
+    <script type="text/javascript" src="/js/services/validationServices.js"></script>
+    <script type="text/javascript" src="/js/services/dateTimeServices.js"></script>
+    <script type="text/javascript" src="/js/services/stringServices.js"></script>
+    <script type="text/javascript" src="/js/services/loadServices.js"></script>
+    <script type="text/javascript" src="/js/services/countryServices.js"></script>
+    <script type="text/javascript" src="/js/controller/dashboardController.js"></script>
+    <script type="text/javascript" src="/js/controller/calendarController.js"></script>
+    <script type="text/javascript" src="/js/controller/attendanceListController.js"></script>
+    <script type="text/javascript" src="/js/controller/myClassesController.js"></script>
+    <script type="text/javascript" src="/js/controller/mySchoolController.js"></script>
+
+
+    <link href="/css/compiled/site-inschool.css" rel="stylesheet" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/js/lib/html5shiv.js"></script>
+    <style>
+        /*html5*/
+
+        figure {
+            display: block;
+            margin:  1em 40px;
+        }
+    </style>
+    <![endif]-->
+</head>
+
+<% if (ngController == '') { %>
+<body class="<%= viewClass %>">
+<% }else{ %>
+<body class="<%= viewClass %>"  ng-controller="<%= ngController %>">
+<% } %>
+
+<div id="root">
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/" target="_self"><img src="/img/inschool-logo-inverted-sm.png" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/dashboard" target="_self">Dashboard</a></li>
+                    <li><a href="/my-classes" target="_self">My Classes</a></li>
+                    <li><a href="/calendar" target="_self">Calendar</a></li>
+                    <li><a href="/my-school" target="_self">My School</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/profile" target="_self" class="nav-profile-img"><img src="/img/avartar-xs.png" /> <span> User</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/account/logout" target="_self">Sign out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <%- body %>
+</div>
+<div id="footer">
+    <div class="col-md-12">
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li><h4>Products</h4></li>
+                <li><a href="http://home.astralink.com.sg/ecosystem/eyexsolution" target="_self">eyeX Solution</a></li>
+                <li><a href="http://home.astralink.com.sg/ecosystem/lifebox" target="_self">LifeBox!</a></li>
+                <li><a href="http://home.astralink.com.sg/ecosystem/lifecare" target="_self">LifeCare</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li><h4>Services</h4></li>
+                <li><a href="http://lifecare.eyeorcas.com" target="_self">LifeCare</a></li>
+                <li><a href="http://eyexsolution.eyeorcas.com" target="_self">eyeX</a></li>
+                <li><a href="http://inschool.today" target="_self">inSchool.today</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li><h4>Resources</h4></li>
+                <li><a href="javascript:void(0)" target="_self">API Docs (Coming Soon)</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li><h4>Contact Us</h4></li>
+                <li><a href="mailto:info@eyeorcas.com" target="_self">info@eyeorcas.com</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-12 footer-credits">
+        <div class="col-md-2"><img src="/img/eyeorcas-logo-md-inverted.png" /></div>
+        <div class="col-md-5"></div>
+        <div class="col-md-5 copyright">
+            <span>Copyright (C) 2014 - 2015 eyeOrcas.com All Rights Reserved</span>
+        </div>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript">
+    var _entityId = "<%- entityId %>";
+    var _entityName = "<%- entityName %>";
+    var _entityAuthLevel = "<%- authorizationLevel %>";
+    var _targetEntityId = "<%- targetEntityId %>";
+    var _targetEntityName = "<%- targetEntityName %>";
+    var _targetAuthLevel = "<%- targetAuthLevel %>";
+</script>
+</html>

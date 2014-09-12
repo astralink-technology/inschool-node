@@ -1,0 +1,118 @@
+//layout css here
+html, body{
+  width:100%;
+  height:auto;
+  height:100%;
+  float:left;
+  font-weight:300;
+  background-color:$color-inschool-background;
+}
+
+.navbar-default{
+  border-radius:0px;
+  border:0px;
+  background-color:$color-brand-green;
+
+  .navbar-nav{
+    li {
+      a{
+        color:$color-text-reversed;
+        font-weight: 500;
+        padding:22px;
+      }
+      a:hover{
+        color:$color-text-reversed;
+        background-color:$color-brand-orange;
+      }
+      .nav-profile-img{
+        padding:17px;
+        img{
+          width:30px;
+          height:30px;
+          margin-right:8px;
+        }
+      }
+    }
+  }
+  .dropdown.open{
+      a{
+        color:$color-text-reversed;
+      }
+      a:hover{
+        background-color:$color-brand-orange;
+        color:$color-text-reversed;
+      }
+      .dropdown-toggle{
+        background-color:$color-brand-orange;
+      }
+      .dropdown-menu{
+        li{
+          a{
+            color:$color-muted-dark;
+            padding:8px 20px;
+          }
+          a:hover{
+            color:$color-muted-dark;
+            background-color:$color-muted-fade;
+          }
+        }
+      }
+    }
+
+  .navbar-brand{
+    height:auto;
+    padding:8px 8px 8px 26px;
+   }
+}
+
+
+#footer{
+  padding:20px 0px;
+  background-color:$color-footer !important;
+  color:$color-text-reversed;
+
+  h4{
+    font-weight:500;
+    font-size: em(20, $text-size-base);
+    color:$color-text-reversed;
+  }
+  .list-unstyled{
+    li, a{
+      color:$color-text-reversed;
+      font-size:em(14, $text-size-base);
+      font-weight:400;
+    }
+    a:hover{
+      color: $color-muted-dark;
+    }
+    li{
+      margin:4px 0px;
+    }
+  }
+  .list-inline{
+    margin:0px;
+    i{
+      font-size:em(32, $text-size-base);
+    }
+  }
+  .footer-credits{
+    float:left;
+    width:100%;
+    margin:20px 0px 0px 0px;
+    .copyright{
+      color:$color-text-reversed;
+      font-weight:500;
+      span{
+        text-align: right;
+        margin:8px 0px 0px 0px;
+        float:right;
+      }
+    }
+  }
+}
+
+/*Ipad Layouts */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="inschool-node-deploy" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.gitignore;*.md;*.bat;*.sh;GruntFile.js;*.scss;.sass-cache;package.json;node_modules">
+    <serverData>
+      <paths name="inschool-node-deploy">
+        <serverdata>
+          <mappings>
+            <mapping deploy="\" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+
