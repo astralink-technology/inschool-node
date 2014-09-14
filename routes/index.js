@@ -55,6 +55,33 @@ exports.dashboard = function(req, res){
         , authorizationLevel : authLevel});
 };
 
+exports.profile = function(req, res){
+    authorizationHelper.alreadyAuthorized(req, res, '/dashboard');
+
+    var authLevel = '';
+    var entityName = '';
+    var entityId = '';
+    var targetEntityId = '';
+    var targetEntityName = '';
+    var targetAuthLevel = '';
+
+    if (req.session.authorizationLevel) authLevel = req.session.authorizationLevel;
+    if (req.session.name) entityName = req.session.name;
+    if (req.session.entityId) entityId = req.session.entityId;
+    if (req.session.targetEntityId) targetEntityId = req.session.targetEntityId;
+
+    res.render('profile', {
+        title: 'Profile'
+        , viewClass: 'profile'
+        , ngController: 'profileController'
+        , entityName : entityName
+        , entityId : entityId
+        , targetEntityId : targetEntityId
+        , targetEntityName : targetEntityName
+        , targetAuthLevel : targetAuthLevel
+        , authorizationLevel : authLevel});
+};
+
 exports.calendar = function(req, res){
     authorizationHelper.alreadyAuthorized(req, res, '/dashboard');
 

@@ -53,6 +53,7 @@ app.get('/dashboard', routes.dashboard);
 app.get('/calendar', routes.calendar);
 app.get('/my-classes', routes.myClasses);
 app.get('/my-school', routes.mySchool);
+app.get('/profile', routes.profile);
 app.get('/attendance-list', routes.attendanceList);
 
 // JSON API

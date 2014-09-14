@@ -1,5 +1,68 @@
 //inschool page CSS start here
-.dashboard{
+.landing{
+  .navbar{
+    margin:0px;
+  }
+
+  h2{
+    font-size:em(24, $text-size-base);
+    color:$color-brand-orange;
+  }
+  p{
+    font-size:em(18, $text-size-base);
+    margin: 8px 0px;
+  }
+
+  b{
+    color:$color-brand-orange;
+  }
+
+  .col-md-10{
+    .col-md-5{
+      text-align: center;
+    }
+  }
+
+  .inschool-cover, .attend-cover{
+    margin-top:-64px;
+    @include background-size(cover);
+    background-image: url('/img/inschool-cover.png');
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    float:left;
+    width:100%;
+    padding:0px 32px;
+    text-align:center;
+    height:500px;
+  }
+
+  .inschool-cover{
+    border-bottom:10px solid $color-brand-green;
+  }
+
+  .attend-cover{
+    padding:80px 0px;
+    margin-top:0px;
+    background-image: url('/img/attend-cover.png');
+    height:auto;
+    text-align: left;
+  }
+
+  .assure{
+    .col-md-7{
+      padding-top:150px;
+    }
+  }
+  .attend{
+    .col-md-7{
+      padding-top:150px;
+    }
+  }
+  .arrive{
+    .col-md-7{
+      padding-top:150px;
+    }
+  }
 
   /* responsive iphone, smartphone*/
   @media only screen
