@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('eyexApp.validationServices', []).
+angular.module('inSchoolApp.validationServices', []).
     factory('validationServices', function () {
     return {
         validateRequiredField: function (value, requiredMessage) {

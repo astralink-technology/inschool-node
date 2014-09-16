@@ -2,21 +2,21 @@
 
 // Declare app level module which depends on filters, and services
 
-angular.module('eyexApp', [
+angular.module('inSchoolApp', [
     'ngRoute'
    , 'ui.bootstrap'
     , 'duScroll'
-   , 'inschoolApp.validationServices'
-   , 'inschoolApp.dateTimeServices'
-   , 'inschoolApp.stringServices'
-   , 'inschoolApp.loadServices'
-   , 'inschoolApp.countryServices'
-   , 'inschoolApp.dashboardController'
-   , 'inschoolApp.attendanceListController'
-   , 'inschoolApp.calendarController'
-   , 'inschoolApp.myClassesController'
-   , 'inschoolApp.mySchoolController'
-   , 'inschoolApp.profileController'
+   , 'inSchoolApp.validationServices'
+   , 'inSchoolApp.dateTimeServices'
+   , 'inSchoolApp.stringServices'
+   , 'inSchoolApp.loadServices'
+   , 'inSchoolApp.countryServices'
+   , 'inSchoolApp.dashboardController'
+   , 'inSchoolApp.attendanceListController'
+   , 'inSchoolApp.calendarController'
+   , 'inSchoolApp.myClassesController'
+   , 'inSchoolApp.mySchoolController'
+   , 'inSchoolApp.profileController'
 ]).
 config(function ($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('eyexApp.dateTimeServices', []).
+angular.module('inSchoolApp.dateTimeServices', []).
     factory('dateTimeServices', ['stringServices', function (stringServices) {
     return {
         //add zeroes

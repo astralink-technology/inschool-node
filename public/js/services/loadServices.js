@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('eyexApp.loadServices', []).
+angular.module('inSchoolApp.loadServices', []).
     factory('loadServices', function () {
         return {
             //ajaxLoader

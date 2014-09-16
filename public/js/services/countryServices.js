@@ -909,7 +909,7 @@ var _countryData = [ {
         code: "263"
     } ];
 
-angular.module('eyexApp.countryServices', []).
+angular.module('inSchoolApp.countryServices', []).
     factory('countryServices', ['$http', function ($http) {
     return {
         //add zeroes

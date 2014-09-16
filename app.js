@@ -6,6 +6,7 @@
 var express = require('express'),
     routes = require('./routes'),
     core = require('./routes/core/'),
+    account = require('./routes/account/'),
     eyeorcas = require('./routes/eyeorcas'),
     helperDemo = require('./routes/helper-demo'),
     expressLayouts = require('express-ejs-layouts'),
@@ -50,6 +51,7 @@ if (app.get('env') === 'production') {
 // serve web pages
 app.get('/', routes.index);
 app.get('/dashboard', routes.dashboard);
+app.get('/account/logout', account.logout);
 app.get('/calendar', routes.calendar);
 app.get('/my-classes', routes.myClasses);
 app.get('/my-school', routes.mySchool);

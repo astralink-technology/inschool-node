@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('inschoolApp.dashboardController', []).
+angular.module('inSchoolApp.dashboardController', []).
   controller('dashboardController', ['$scope', '$http', function ($scope, $http) {
-
+        $('#navbar-dashboard').addClass('navbar-active');
   }]);

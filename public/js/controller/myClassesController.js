@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('inschoolApp.myClassesController', []).
+angular.module('inSchoolApp.myClassesController', []).
   controller('myClassesController', ['$scope', '$http', function ($scope, $http) {
-
+        $('#navbar-my-classes').addClass('navbar-active');
   }]);

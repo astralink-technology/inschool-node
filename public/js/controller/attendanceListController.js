@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('inschoolApp.attendanceListController', []).
+angular.module('inSchoolApp.attendanceListController', []).
   controller('attendanceListController', ['$scope', '$http', function ($scope, $http) {
 
   }]);

@@ -1,6 +1,307 @@
 //inschool page CSS start here
-.landing{
+.dashboard{
+  .navbar-public{
+    display:none;
+  }
 
+  #root{ //fixed for the newsfeed track
+    height:100%;
+  }
+
+  .navbar-default{
+    margin:0px;
+  }
+
+  .news-feed, .chat-messages-list, .chat-messages{
+    height:100%;
+    h2{
+      font-weight:bold;
+      padding:12px 0px;
+      color:$color-muted-dark;
+      a{
+        color:$color-brand-green;
+      }
+      a:hover{
+        color:$color-brand-orange;
+      }
+    }
+  }
+  .news-feed{
+    background-color:$color-muted-light;
+    .feed-track{
+      overflow: auto;
+      height: -webkit-calc(100% - 50px);
+      height: -moz-calc(100% - 50px);
+      height: calc(100% - 50px);
+      padding-bottom:50px;
+      .feed-entry{
+        background-color: $color-text-reversed;
+        width:100%;
+        padding:12px;
+        -webkit-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        -moz-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        margin: 0px 0px 12px 0px;
+        h4{
+          font-weight:bold;
+          font-size:em(18, $text-size-base);
+        }
+        p{
+          font-weight:500;
+          font-size:em(16, $text-size-base);
+          color:$color-muted-intense;
+          margin:0px;
+        }
+        .list-inline{
+          margin:12px 0px 0px 0px;
+          a{
+            color:$color-muted-intense;
+          }
+          .feed-date{
+            font-style: italic;
+            color:$color-muted-dark;
+            font-size:em(12, $text-size-base);
+            margin:2px 0px 0px 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .chat-messages-list{
+    background-color:$color-muted-fade;
+    padding:0px;
+    border-left:1px solid;
+    border-right:1px solid;
+    border-color:$color-muted-mid;
+    h2{
+      padding:12px;
+    }
+    .chat-search{
+      background-color:$color-muted-mid;
+      padding:10px;
+    }
+    .message-list-track{
+      overflow: auto;
+      height: -webkit-calc(100% - 97px);
+      height: -moz-calc(100% - 97px);
+      height: calc(100% - 97px);
+      padding-bottom:100px;
+      .message-entry{
+        background-color:$color-text-reversed;
+        padding:12px;
+        border-bottom:1px solid;
+        border-color:$color-muted-mid;
+        h4{
+          font-weight:bold;
+          font-size:em(18, $text-size-base);
+          .message-name{
+            width:70%;
+          }
+          .message-timing{
+            width:30%;
+            font-weight:normal;
+            color:$color-muted-mid;
+            font-style: italic;
+            font-size:em(10, $text-size-base);
+            text-align: right;
+          }
+        }
+        p{
+          margin:0px;
+          .message-detail{
+            width:80%;
+          }
+          .message-status{
+            width:20%;
+            text-align: right;
+            color:$color-brand-orange;
+          }
+        }
+      }
+      .message-entry:hover{
+        cursor: pointer;
+        background-color:$color-muted-light;
+      }
+      .active{
+        background-color:$color-muted-light;
+      }
+    }
+  }
+
+  .chat-messages{
+    background-color:$color-muted-light;
+    padding:12px;
+    .chat-convo{
+      background-color:$color-muted-fade;
+      height: -webkit-calc(100% - 24px);
+      height: -moz-calc(100% - 24px);
+      height: calc(100% - 24px);
+      border-radius:10px;
+      -webkit-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+      -moz-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+      box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+      .chat-convo-head{
+        background-color:$color-brand-green;
+        color:$color-text-reversed;
+        padding:12px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        .media{
+          width:85%;
+          display:inline-block;
+          h4{
+            font-weight:bold;
+            font-size:em(18, $text-size-base);
+          }
+          p{
+            margin:0px;
+            a{
+              color:$color-text-reversed;
+            }
+          }
+        }
+        .chat-convo-head-controls{
+          width:13%;
+          font-size:em(20, $text-size-base);
+          vertical-align: top;
+          display:inline-block;
+          color:$color-text-reversed;
+          text-align:right;
+          a{
+            color:$color-text-reversed;
+          }
+          a:hover{
+            text-decoration:none;
+          }
+        }
+      }
+
+      .chat-convo-details{
+        padding:12px;
+        border-color:$color-muted-mid;
+        height: -webkit-calc(100% - 260px);
+        height: -moz-calc(100% - 260px);
+        height: calc(100% - 260px);
+        .convo-track{
+          overflow:auto;
+          height:100%;
+          .chat-left{
+            display:block;
+            margin-bottom:12px;
+            .avatar{
+              display:inline-block;
+              vertical-align: top;
+            }
+            .bubble
+            {
+              font-size:em(18, $text-size-base);
+              position: relative;
+              min-width: 10%;
+              max-width:60%;
+              display:inline-block;
+              min-height: 24px;
+              padding: 0px;
+              background: $color-chat-blue;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px;
+              margin-left:20px;
+              padding:8px 10px;
+            }
+
+            .bubble:after
+            {
+              content: '';
+              position: absolute;
+              border-style: solid;
+              border-width: 10px 12px 10px 0;
+              border-color: transparent  $color-chat-blue;
+              display: block;
+              width: 0;
+              z-index: 1;
+              left: -12px;
+              top: 11px;
+            }
+          }
+          .chat-right{
+            margin-bottom:12px;
+            display:block;
+            text-align:right;
+            .avatar{
+              display:inline-block;
+              vertical-align: top;
+            }
+            .bubble
+            {
+              font-size:em(18, $text-size-base);
+              position: relative;
+              min-width: 10%;
+              max-width:60%;
+              display:inline-block;
+              min-height: 24px;
+              padding: 0px;
+              background: $color-chat-green;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px;
+              margin-right:20px;
+              padding:8px 10px;
+              text-align:left;
+            }
+
+            .bubble:after
+            {
+              content: '';
+              position: absolute;
+              border-style: solid;
+              border-width: 10px 0 10px 12px;
+              border-color: transparent  $color-chat-green;
+              display: block;
+              width: 0;
+              z-index: 1;
+              right: -12px;
+              top: 11px;
+            }
+          }
+          .bubble{
+            .bubble-head{
+              font-weight:bold;
+              font-size:em(14, $text-size-base);
+            }
+            .bubble-time{
+              margin:0px 0px 0px 10px;
+              font-size:em(10, $text-size-base);
+              color:$color-muted-intense;
+            }
+            .bubble-details{
+              display:block;
+            }
+            i{
+              font-size:em(10, $text-size-base);
+              color:$color-muted-intense;
+            }
+          }
+        }
+      }
+
+      .chat-convo-send{
+        padding:12px;
+        background-color:$color-muted-mid;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        textarea{
+          resize: none;
+          height:120px;
+        }
+        .chat-convo-controls{
+          text-align: right;
+          margin:12px 0px 0px 0px;
+        }
+      }
+    }
+
+  }
   /* responsive iphone, smartphone*/
   @media only screen
   and (min-width : 320px)

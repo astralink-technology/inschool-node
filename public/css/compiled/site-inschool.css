@@ -932,16 +932,34 @@ html, body {
   height: 100%;
   float: left;
   font-weight: 300;
-  background-color: #f8f9f9; }
+  background-color: #f8f9f9;
+  font-family: "PT Sans", sans-serif; }
+
+.navbar-public {
+  border: 0px; }
+  .navbar-public li a {
+    color: white;
+    font-weight: 500;
+    background-color: #00b47e; }
+  .navbar-public li a:hover {
+    background-color: #f5a31f; }
+  .navbar-public li .btn-login {
+    margin: 20px;
+    font-size: 1.42857em;
+    padding: 12px 20px; }
 
 .navbar-default {
   border-radius: 0px;
   border: 0px;
-  background-color: #00b47e; }
+  background-color: #00b47e;
+  -webkit-box-shadow: 0px 0px 6px 1px #e0e0e0;
+  -moz-box-shadow: 0px 0px 6px 1px #e0e0e0;
+  box-shadow: 0px 0px 6px 1px #e0e0e0; }
   .navbar-default .navbar-nav li a {
     color: white;
     font-weight: 500;
-    padding: 22px; }
+    padding: 22px;
+    font-size: 1.28571em; }
   .navbar-default .navbar-nav li a:hover {
     color: white;
     background-color: #f5a31f; }
@@ -951,6 +969,9 @@ html, body {
       width: 30px;
       height: 30px;
       margin-right: 8px; }
+  .navbar-default .navbar-nav li.navbar-active a {
+    color: white;
+    background-color: #f5a31f; }
   .navbar-default .dropdown.open a {
     color: white; }
   .navbar-default .dropdown.open a:hover {
@@ -1006,18 +1027,21 @@ html, body {
   /*Ipad Layouts */ }
   .landing .navbar {
     margin: 0px; }
+  .landing .navbar-default {
+    display: none; }
   .landing h2 {
-    font-size: 1.71429em;
-    color: #f5a31f; }
+    font-size: 2.28571em;
+    color: #f5a31f;
+    font-weight: bold; }
   .landing p {
-    font-size: 1.28571em;
+    font-size: 1.71429em;
     margin: 8px 0px; }
   .landing b {
     color: #f5a31f; }
   .landing .col-md-10 .col-md-5 {
     text-align: center; }
   .landing .inschool-cover, .landing .attend-cover {
-    margin-top: -64px;
+    margin-top: -83px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1032,6 +1056,15 @@ html, body {
     height: 500px; }
   .landing .inschool-cover {
     border-bottom: 10px solid #00b47e; }
+    .landing .inschool-cover img {
+      padding: 130px 0px;
+      width: 400px; }
+  .landing .inschool-sub-cover-icons {
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: 20px; }
+    .landing .inschool-sub-cover-icons img {
+      width: 210px; }
   .landing .attend-cover {
     padding: 80px 0px;
     margin-top: 0px;
@@ -1039,31 +1072,278 @@ html, body {
     height: auto;
     text-align: left; }
   .landing .assure .col-md-7 {
-    padding-top: 150px; }
+    padding-top: 100px; }
   .landing .attend .col-md-7 {
-    padding-top: 150px; }
+    padding-top: 100px; }
+  .landing .arrive, .landing .attend, .landing .assure {
+    padding: 80px 0px; }
   .landing .arrive .col-md-7 {
-    padding-top: 150px; }
+    padding-top: 70px; }
 
 .calendar {
   /* responsive iphone, smartphone*/
   /*Ipad Layouts */ }
+  .calendar .navbar-public {
+    display: none; }
 
 .profile {
   /* responsive iphone, smartphone*/
   /*Ipad Layouts */ }
+  .profile .navbar-public {
+    display: none; }
 
-.landing {
+.dashboard {
   /* responsive iphone, smartphone*/
   /*Ipad Layouts */ }
+  .dashboard .navbar-public {
+    display: none; }
+  .dashboard #root {
+    height: 100%; }
+  .dashboard .navbar-default {
+    margin: 0px; }
+  .dashboard .news-feed, .dashboard .chat-messages-list, .dashboard .chat-messages {
+    height: 100%; }
+    .dashboard .news-feed h2, .dashboard .chat-messages-list h2, .dashboard .chat-messages h2 {
+      font-weight: bold;
+      padding: 12px 0px;
+      color: #777777; }
+      .dashboard .news-feed h2 a, .dashboard .chat-messages-list h2 a, .dashboard .chat-messages h2 a {
+        color: #00b47e; }
+      .dashboard .news-feed h2 a:hover, .dashboard .chat-messages-list h2 a:hover, .dashboard .chat-messages h2 a:hover {
+        color: #f5a31f; }
+  .dashboard .news-feed {
+    background-color: #eeeeee; }
+    .dashboard .news-feed .feed-track {
+      overflow: auto;
+      height: -webkit-calc(100% - 50px);
+      height: -moz-calc(100% - 50px);
+      height: calc(100% - 50px);
+      padding-bottom: 50px; }
+      .dashboard .news-feed .feed-track .feed-entry {
+        background-color: white;
+        width: 100%;
+        padding: 12px;
+        -webkit-box-shadow: 0px 0px 6px 1px #e0e0e0;
+        -moz-box-shadow: 0px 0px 6px 1px #e0e0e0;
+        box-shadow: 0px 0px 6px 1px #e0e0e0;
+        margin: 0px 0px 12px 0px; }
+        .dashboard .news-feed .feed-track .feed-entry h4 {
+          font-weight: bold;
+          font-size: 1.28571em; }
+        .dashboard .news-feed .feed-track .feed-entry p {
+          font-weight: 500;
+          font-size: 1.14286em;
+          color: #555555;
+          margin: 0px; }
+        .dashboard .news-feed .feed-track .feed-entry .list-inline {
+          margin: 12px 0px 0px 0px; }
+          .dashboard .news-feed .feed-track .feed-entry .list-inline a {
+            color: #555555; }
+          .dashboard .news-feed .feed-track .feed-entry .list-inline .feed-date {
+            font-style: italic;
+            color: #777777;
+            font-size: 0.85714em;
+            margin: 2px 0px 0px 0px; }
+  .dashboard .chat-messages-list {
+    background-color: #f8f8f8;
+    padding: 0px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #bbbbbb; }
+    .dashboard .chat-messages-list h2 {
+      padding: 12px; }
+    .dashboard .chat-messages-list .chat-search {
+      background-color: #bbbbbb;
+      padding: 10px; }
+    .dashboard .chat-messages-list .message-list-track {
+      overflow: auto;
+      height: -webkit-calc(100% - 97px);
+      height: -moz-calc(100% - 97px);
+      height: calc(100% - 97px);
+      padding-bottom: 100px; }
+      .dashboard .chat-messages-list .message-list-track .message-entry {
+        background-color: white;
+        padding: 12px;
+        border-bottom: 1px solid;
+        border-color: #bbbbbb; }
+        .dashboard .chat-messages-list .message-list-track .message-entry h4 {
+          font-weight: bold;
+          font-size: 1.28571em; }
+          .dashboard .chat-messages-list .message-list-track .message-entry h4 .message-name {
+            width: 70%; }
+          .dashboard .chat-messages-list .message-list-track .message-entry h4 .message-timing {
+            width: 30%;
+            font-weight: normal;
+            color: #bbbbbb;
+            font-style: italic;
+            font-size: 0.71429em;
+            text-align: right; }
+        .dashboard .chat-messages-list .message-list-track .message-entry p {
+          margin: 0px; }
+          .dashboard .chat-messages-list .message-list-track .message-entry p .message-detail {
+            width: 80%; }
+          .dashboard .chat-messages-list .message-list-track .message-entry p .message-status {
+            width: 20%;
+            text-align: right;
+            color: #f5a31f; }
+      .dashboard .chat-messages-list .message-list-track .message-entry:hover {
+        cursor: pointer;
+        background-color: #eeeeee; }
+      .dashboard .chat-messages-list .message-list-track .active {
+        background-color: #eeeeee; }
+  .dashboard .chat-messages {
+    background-color: #eeeeee;
+    padding: 12px; }
+    .dashboard .chat-messages .chat-convo {
+      background-color: #f8f8f8;
+      height: -webkit-calc(100% - 24px);
+      height: -moz-calc(100% - 24px);
+      height: calc(100% - 24px);
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 6px 1px #e0e0e0;
+      -moz-box-shadow: 0px 0px 6px 1px #e0e0e0;
+      box-shadow: 0px 0px 6px 1px #e0e0e0; }
+      .dashboard .chat-messages .chat-convo .chat-convo-head {
+        background-color: #00b47e;
+        color: white;
+        padding: 12px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; }
+        .dashboard .chat-messages .chat-convo .chat-convo-head .media {
+          width: 85%;
+          display: inline-block; }
+          .dashboard .chat-messages .chat-convo .chat-convo-head .media h4 {
+            font-weight: bold;
+            font-size: 1.28571em; }
+          .dashboard .chat-messages .chat-convo .chat-convo-head .media p {
+            margin: 0px; }
+            .dashboard .chat-messages .chat-convo .chat-convo-head .media p a {
+              color: white; }
+        .dashboard .chat-messages .chat-convo .chat-convo-head .chat-convo-head-controls {
+          width: 13%;
+          font-size: 1.42857em;
+          vertical-align: top;
+          display: inline-block;
+          color: white;
+          text-align: right; }
+          .dashboard .chat-messages .chat-convo .chat-convo-head .chat-convo-head-controls a {
+            color: white; }
+          .dashboard .chat-messages .chat-convo .chat-convo-head .chat-convo-head-controls a:hover {
+            text-decoration: none; }
+      .dashboard .chat-messages .chat-convo .chat-convo-details {
+        padding: 12px;
+        border-color: #bbbbbb;
+        height: -webkit-calc(100% - 260px);
+        height: -moz-calc(100% - 260px);
+        height: calc(100% - 260px); }
+        .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track {
+          overflow: auto;
+          height: 100%; }
+          .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-left {
+            display: block;
+            margin-bottom: 12px; }
+            .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-left .avatar {
+              display: inline-block;
+              vertical-align: top; }
+            .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-left .bubble {
+              font-size: 1.28571em;
+              position: relative;
+              min-width: 10%;
+              max-width: 60%;
+              display: inline-block;
+              min-height: 24px;
+              padding: 0px;
+              background: #97d6d7;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px;
+              margin-left: 20px;
+              padding: 8px 10px; }
+            .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-left .bubble:after {
+              content: '';
+              position: absolute;
+              border-style: solid;
+              border-width: 10px 12px 10px 0;
+              border-color: transparent #97d6d7;
+              display: block;
+              width: 0;
+              z-index: 1;
+              left: -12px;
+              top: 11px; }
+          .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-right {
+            margin-bottom: 12px;
+            display: block;
+            text-align: right; }
+            .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-right .avatar {
+              display: inline-block;
+              vertical-align: top; }
+            .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-right .bubble {
+              font-size: 1.28571em;
+              position: relative;
+              min-width: 10%;
+              max-width: 60%;
+              display: inline-block;
+              min-height: 24px;
+              padding: 0px;
+              background: #dafc90;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px;
+              margin-right: 20px;
+              padding: 8px 10px;
+              text-align: left; }
+            .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .chat-right .bubble:after {
+              content: '';
+              position: absolute;
+              border-style: solid;
+              border-width: 10px 0 10px 12px;
+              border-color: transparent #dafc90;
+              display: block;
+              width: 0;
+              z-index: 1;
+              right: -12px;
+              top: 11px; }
+          .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .bubble .bubble-head {
+            font-weight: bold;
+            font-size: 1em; }
+          .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .bubble .bubble-time {
+            margin: 0px 0px 0px 10px;
+            font-size: 0.71429em;
+            color: #555555; }
+          .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .bubble .bubble-details {
+            display: block; }
+          .dashboard .chat-messages .chat-convo .chat-convo-details .convo-track .bubble i {
+            font-size: 0.71429em;
+            color: #555555; }
+      .dashboard .chat-messages .chat-convo .chat-convo-send {
+        padding: 12px;
+        background-color: #bbbbbb;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px; }
+        .dashboard .chat-messages .chat-convo .chat-convo-send textarea {
+          resize: none;
+          height: 120px; }
+        .dashboard .chat-messages .chat-convo .chat-convo-send .chat-convo-controls {
+          text-align: right;
+          margin: 12px 0px 0px 0px; }
 
 .my-school {
   /* responsive iphone, smartphone*/
   /*Ipad Layouts */ }
+  .my-school .navbar-public {
+    display: none; }
+
+.my-classes {
+  /* responsive iphone, smartphone*/
+  /*Ipad Layouts */ }
+  .my-classes .navbar-public {
+    display: none; }
 
 .attendance-list {
   /* responsive iphone, smartphone*/
   /*Ipad Layouts */ }
+  .attendance-list .navbar-public {
+    display: none; }
 
 html, body {
   min-height: 100%; }

@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('inschoolApp.landingController', []).
+angular.module('inSchoolApp.landingController', []).
   controller('dashboardController', ['$scope', '$http', function ($scope, $http) {
 
   }]);

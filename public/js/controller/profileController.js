@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('inschoolApp.profileController', []).
+angular.module('inSchoolApp.profileController', []).
   controller('profileController', ['$scope', '$http', function ($scope, $http) {
 
   }]);

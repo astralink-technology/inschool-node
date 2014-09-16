@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('eyexApp.stringServices', []).
+angular.module('inSchoolApp.stringServices', []).
     factory('stringServices', function () {
     return {
         pluralize: function (count, noun) {
