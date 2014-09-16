@@ -4,6 +4,134 @@
     display:none;
   }
 
+  .navbar{
+    margin:0px;
+  }
+  .calendar-task-list{
+    padding:0px;
+    h2{
+      font-weight:bold;
+      padding:12px;
+    }
+    .all-day-event-title{
+      font-weight:bold;
+      background-color:$color-brand-orange;
+      color:$color-text-reversed;
+      padding:12px;
+    }
+    .time-event-title{
+      font-weight:bold;
+      background-color:$color-brand-green;
+      color:$color-text-reversed;
+      padding:12px;
+    }
+    .calendar-list{
+      padding:12px;
+      .calendar-event{
+        padding:12px;
+        margin:0px 0px 12px 0px;
+        background-color:$color-text-reversed;
+        -webkit-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        -moz-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        .time-event-time{
+          display:inline-block;
+          font-weight:bold;
+          width:10%;
+        }
+        .time-event-details{
+          display:inline-block;
+          width:89%;
+        }
+      }
+    }
+  }
+
+  .calendar{
+    padding:0px;
+    background-color:$color-text-reversed;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+    box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+    .calendar-month-control{
+      background-color:$color-muted-light;
+      padding:0px;
+      a{
+        display:inline-block;
+        width:5%;
+        padding:8px 20px;
+        font-weight:bold;
+        font-size:em(20, $text-size-base);
+        color:$color-muted-intense;
+        text-align:center;
+      }
+      a:hover{
+        background-color:$color-muted-dark;
+        color:$color-text-reversed;
+      }
+      .calendar-month{
+        display:inline-block;
+        font-weight:bold;
+        color:$color-muted-intense;
+        width:89%;
+        text-align:center;
+        vertical-align: top;
+        padding:12px;
+      }
+      .prev-month{
+      }
+      .next-month{
+        float:right;
+      }
+    }
+    .calendar-days-label{
+      .list-inline{
+        margin:0px;
+        li{
+          margin:0px;
+          width: -webkit-calc(100% / 7);
+          width: -moz-calc(100% /  7);
+          width: calc(100% / 7);
+          text-align:center;
+          font-weight:bold;
+          color:$color-text-reversed;
+          padding:8px 0px;
+          background-color:$color-brand-green;
+          margin-right:-3.4px;
+        }
+        .alt{
+          background-color:$color-brand-dark-green;
+        }
+      }
+    }
+    .calendar-content{
+      .list-inline{
+        margin:0px;
+        li{
+          margin:0px;
+          width: -webkit-calc(100% / 7);
+          width: -moz-calc(100% /  7);
+          width: calc(100% / 7);
+          height:120px;
+          margin-bottom:12px;
+          font-weight:bold;
+          padding:12px;
+          color:$color-text;
+          background-color:$color-muted-fade;
+          margin-right:-3.4px;
+        }
+        .alt{
+          background-color:$color-muted-light;
+        }
+        li:hover{
+          cursor: pointer;
+          background-color:$color-muted-mid;
+          color:$color-text-reversed;
+        }
+      }
+    }
+  }
+
   /* responsive iphone, smartphone*/
   @media only screen
   and (min-width : 320px)

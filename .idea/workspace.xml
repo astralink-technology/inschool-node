@@ -5,43 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e743426a-0cc9-4fc9-ae0b-13faf83aaea6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/pages/_my-classes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/account/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_dashboard.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_dashboard.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_landing.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_landing.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/4abfbfe191b7b0faa7efb6632f05df28b543ab9d/_layout.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/4abfbfe191b7b0faa7efb6632f05df28b543ab9d/_layout.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/4abfbfe191b7b0faa7efb6632f05df28b543ab9d/_variables.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/4abfbfe191b7b0faa7efb6632f05df28b543ab9d/_variables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/site-inschool.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/site-inschool.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pages/_attendance-list.scss" afterPath="$PROJECT_DIR$/public/css/pages/_attendance-list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_attendance-list.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_attendance-list.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pages/_calendar.scss" afterPath="$PROJECT_DIR$/public/css/pages/_calendar.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_calendar.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_calendar.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pages/_dashboard.scss" afterPath="$PROJECT_DIR$/public/css/pages/_dashboard.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pages/_landing.scss" afterPath="$PROJECT_DIR$/public/css/pages/_landing.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/partials/_layout.scss" afterPath="$PROJECT_DIR$/public/css/partials/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pages/_my-school.scss" afterPath="$PROJECT_DIR$/public/css/pages/_my-school.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_my-school.scssc" afterPath="$PROJECT_DIR$/public/css/.sass-cache/beb5e2d4636217feddebc69aeb338100ea138887/_my-school.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pages/_profile.scss" afterPath="$PROJECT_DIR$/public/css/pages/_profile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/partials/_variables.scss" afterPath="$PROJECT_DIR$/public/css/partials/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/attendanceListController.js" afterPath="$PROJECT_DIR$/public/js/controller/attendanceListController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/calendarController.js" afterPath="$PROJECT_DIR$/public/js/controller/calendarController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/countryServices.js" afterPath="$PROJECT_DIR$/public/js/services/countryServices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/calendar.ejs" afterPath="$PROJECT_DIR$/views/calendar.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/dashboard.ejs" afterPath="$PROJECT_DIR$/views/dashboard.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/dashboardController.js" afterPath="$PROJECT_DIR$/public/js/controller/dashboardController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/dateTimeServices.js" afterPath="$PROJECT_DIR$/public/js/services/dateTimeServices.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/landingController.js" afterPath="$PROJECT_DIR$/public/js/controller/landingController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/loadServices.js" afterPath="$PROJECT_DIR$/public/js/services/loadServices.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/myClassesController.js" afterPath="$PROJECT_DIR$/public/js/controller/myClassesController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/mySchoolController.js" afterPath="$PROJECT_DIR$/public/js/controller/mySchoolController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/profileController.js" afterPath="$PROJECT_DIR$/public/js/controller/profileController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/compiled/site-inschool.css" afterPath="$PROJECT_DIR$/public/css/compiled/site-inschool.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pages/site-inschool.scss" afterPath="$PROJECT_DIR$/public/css/pages/site-inschool.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/stringServices.js" afterPath="$PROJECT_DIR$/public/js/services/stringServices.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/validationServices.js" afterPath="$PROJECT_DIR$/public/js/services/validationServices.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="inschool-node.iws" />
@@ -83,19 +58,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landingController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/controller/landingController.js">
+      <file leaf-file-name="_dashboard.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/pages/_dashboard.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="184" column="35" selection-start="4628" selection-end="4628" vertical-scroll-proportion="-6.571429" vertical-offset="2438" max-vertical-offset="3690">
+              <folding>
+                <element signature="e#4719#5797#0" expanded="false" />
+                <element signature="e#5819#6962#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/partials/_layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="23" selection-start="933" selection-end="933" vertical-scroll-proportion="-6.346667" vertical-offset="199" max-vertical-offset="2310">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dateTimeServices.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/services/dateTimeServices.js">
+      <file leaf-file-name="calendar.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/calendar.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+            <state line="3" column="20" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_calendar.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/pages/_calendar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="11" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.33965844" vertical-offset="1156" max-vertical-offset="2280">
               <folding />
             </state>
           </provider>
@@ -119,28 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.ejs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/dashboard.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="583" column="18" selection-start="27209" selection-end="27209" vertical-scroll-proportion="0.31734318" vertical-offset="8487" max-vertical-offset="9300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="myClassesController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/controller/myClassesController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="82" selection-start="171" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attendanceListController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/controller/attendanceListController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="87" selection-start="181" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -180,7 +158,6 @@
         <option value="$PROJECT_DIR$/public/css/pages/_attendance-list.scss" />
         <option value="$PROJECT_DIR$/public/css/pages/_profile.scss" />
         <option value="$PROJECT_DIR$/public/css/pages/_my-school.scss" />
-        <option value="$PROJECT_DIR$/public/css/pages/_calendar.scss" />
         <option value="$PROJECT_DIR$/public/css/pages/_my-classes.scss" />
         <option value="$PROJECT_DIR$/public/css/pages/site-inschool.scss" />
         <option value="$PROJECT_DIR$/public/js/services/countryServices.js" />
@@ -193,19 +170,22 @@
         <option value="$PROJECT_DIR$/public/js/controller/profileController.js" />
         <option value="$PROJECT_DIR$/views/layout.ejs" />
         <option value="$PROJECT_DIR$/public/js/controller/dashboardController.js" />
-        <option value="$PROJECT_DIR$/public/css/partials/_layout.scss" />
-        <option value="$PROJECT_DIR$/public/css/partials/_variables.scss" />
-        <option value="$PROJECT_DIR$/public/css/pages/_dashboard.scss" />
         <option value="$PROJECT_DIR$/public/js/controller/attendanceListController.js" />
         <option value="$PROJECT_DIR$/public/js/controller/calendarController.js" />
         <option value="$PROJECT_DIR$/public/js/controller/myClassesController.js" />
         <option value="$PROJECT_DIR$/public/js/controller/mySchoolController.js" />
         <option value="$PROJECT_DIR$/views/dashboard.ejs" />
+        <option value="$PROJECT_DIR$/public/css/pages/_dashboard.scss" />
+        <option value="$PROJECT_DIR$/public/css/partials/_variables.scss" />
+        <option value="$PROJECT_DIR$/views/calendar.ejs" />
+        <option value="$PROJECT_DIR$/public/css/partials/_layout.scss" />
+        <option value="$PROJECT_DIR$/public/css/pages/_calendar.scss" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="970" />
@@ -511,22 +491,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="970" extended-state="6" />
+    <frame x="-2" y="22" width="1920" height="970" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21197917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21197917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -553,16 +533,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="101" selection-start="3568" selection-end="3568" vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="2370">
-          <folding>
-            <marker date="1410852363000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410852363000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/pages/_my-school.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="1" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
@@ -730,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/pages/_calendar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="-4.285714" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/profile.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="-0.6" vertical-offset="0" max-vertical-offset="120">
@@ -800,20 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/partials/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="708" selection-end="708" vertical-scroll-proportion="0.43227327" vertical-offset="173" max-vertical-offset="2310">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="566" selection-end="566" vertical-scroll-proportion="-7.6530614" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="140" column="23" selection-start="3513" selection-end="3513" vertical-scroll-proportion="0.0" vertical-offset="1689" max-vertical-offset="7260">
@@ -825,16 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="332" column="16" selection-start="6334" selection-end="6334" vertical-scroll-proportion="0.0" vertical-offset="4674" max-vertical-offset="6090">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/pages/_dashboard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="28" selection-start="7316" selection-end="7316" vertical-scroll-proportion="-13.979591" vertical-offset="2330" max-vertical-offset="3690">
-          <folding>
-            <element signature="e#4705#5783#0" expanded="false" />
-            <element signature="e#5805#6948#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,13 +794,6 @@
     <entry file="file://$PROJECT_DIR$/public/js/controller/attendanceListController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="87" selection-start="181" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controller/dashboardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="82" selection-start="171" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
@@ -887,23 +819,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controller/calendarController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="81" selection-start="169" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/myClasses.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controller/profileController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
@@ -918,9 +836,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controller/calendarController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="81" selection-start="169" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controller/profileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controller/dashboardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="82" selection-start="171" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/dashboard.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="583" column="18" selection-start="27209" selection-end="27209" vertical-scroll-proportion="0.31734318" vertical-offset="8487" max-vertical-offset="9300">
+        <state line="319" column="107" selection-start="15485" selection-end="15491" vertical-scroll-proportion="0.33333334" vertical-offset="4515" max-vertical-offset="9300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="-3.9795918" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/calendar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/pages/_dashboard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="35" selection-start="4628" selection-end="4628" vertical-scroll-proportion="-6.571429" vertical-offset="2438" max-vertical-offset="3690">
+          <folding>
+            <element signature="e#4719#5797#0" expanded="false" />
+            <element signature="e#5819#6962#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/partials/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="23" selection-start="933" selection-end="933" vertical-scroll-proportion="-6.346667" vertical-offset="199" max-vertical-offset="2310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/pages/_calendar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="11" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.33965844" vertical-offset="1156" max-vertical-offset="2280">
           <folding />
         </state>
       </provider>

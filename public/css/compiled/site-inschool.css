@@ -954,12 +954,13 @@ html, body {
   background-color: #00b47e;
   -webkit-box-shadow: 0px 0px 6px 1px #e0e0e0;
   -moz-box-shadow: 0px 0px 6px 1px #e0e0e0;
-  box-shadow: 0px 0px 6px 1px #e0e0e0; }
+  box-shadow: 0px 0px 6px 1px #e0e0e0;
+  z-index: 1000; }
   .navbar-default .navbar-nav li a {
     color: white;
     font-weight: 500;
     padding: 22px;
-    font-size: 1.28571em; }
+    font-size: 1.14286em; }
   .navbar-default .navbar-nav li a:hover {
     color: white;
     background-color: #f5a31f; }
@@ -1085,6 +1086,104 @@ html, body {
   /*Ipad Layouts */ }
   .calendar .navbar-public {
     display: none; }
+  .calendar .navbar {
+    margin: 0px; }
+  .calendar .calendar-task-list {
+    padding: 0px; }
+    .calendar .calendar-task-list h2 {
+      font-weight: bold;
+      padding: 12px; }
+    .calendar .calendar-task-list .all-day-event-title {
+      font-weight: bold;
+      background-color: #f5a31f;
+      color: white;
+      padding: 12px; }
+    .calendar .calendar-task-list .time-event-title {
+      font-weight: bold;
+      background-color: #00b47e;
+      color: white;
+      padding: 12px; }
+    .calendar .calendar-task-list .calendar-list {
+      padding: 12px; }
+      .calendar .calendar-task-list .calendar-list .calendar-event {
+        padding: 12px;
+        margin: 0px 0px 12px 0px;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 6px 1px #e0e0e0;
+        -moz-box-shadow: 0px 0px 6px 1px #e0e0e0;
+        box-shadow: 0px 0px 6px 1px #e0e0e0; }
+        .calendar .calendar-task-list .calendar-list .calendar-event .time-event-time {
+          display: inline-block;
+          font-weight: bold;
+          width: 10%; }
+        .calendar .calendar-task-list .calendar-list .calendar-event .time-event-details {
+          display: inline-block;
+          width: 89%; }
+  .calendar .calendar {
+    padding: 0px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 6px 1px #e0e0e0;
+    -moz-box-shadow: 0px 0px 6px 1px #e0e0e0;
+    box-shadow: 0px 0px 6px 1px #e0e0e0; }
+    .calendar .calendar .calendar-month-control {
+      background-color: #eeeeee;
+      padding: 0px; }
+      .calendar .calendar .calendar-month-control a {
+        display: inline-block;
+        width: 5%;
+        padding: 8px 20px;
+        font-weight: bold;
+        font-size: 1.42857em;
+        color: #555555;
+        text-align: center; }
+      .calendar .calendar .calendar-month-control a:hover {
+        background-color: #777777;
+        color: white; }
+      .calendar .calendar .calendar-month-control .calendar-month {
+        display: inline-block;
+        font-weight: bold;
+        color: #555555;
+        width: 89%;
+        text-align: center;
+        vertical-align: top;
+        padding: 12px; }
+      .calendar .calendar .calendar-month-control .next-month {
+        float: right; }
+    .calendar .calendar .calendar-days-label .list-inline {
+      margin: 0px; }
+      .calendar .calendar .calendar-days-label .list-inline li {
+        margin: 0px;
+        width: -webkit-calc(100% / 7);
+        width: -moz-calc(100% /  7);
+        width: calc(100% / 7);
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        padding: 8px 0px;
+        background-color: #00b47e;
+        margin-right: -3.4px; }
+      .calendar .calendar .calendar-days-label .list-inline .alt {
+        background-color: #008e5f; }
+    .calendar .calendar .calendar-content .list-inline {
+      margin: 0px; }
+      .calendar .calendar .calendar-content .list-inline li {
+        margin: 0px;
+        width: -webkit-calc(100% / 7);
+        width: -moz-calc(100% /  7);
+        width: calc(100% / 7);
+        height: 120px;
+        margin-bottom: 12px;
+        font-weight: bold;
+        padding: 12px;
+        color: #222222;
+        background-color: #f8f8f8;
+        margin-right: -3.4px; }
+      .calendar .calendar .calendar-content .list-inline .alt {
+        background-color: #eeeeee; }
+      .calendar .calendar .calendar-content .list-inline li:hover {
+        cursor: pointer;
+        background-color: #bbbbbb;
+        color: white; }
 
 .profile {
   /* responsive iphone, smartphone*/
@@ -1206,7 +1305,7 @@ html, body {
       .dashboard .chat-messages .chat-convo .chat-convo-head {
         background-color: #00b47e;
         color: white;
-        padding: 12px;
+        padding: 12px 12px 4px 12px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px; }
         .dashboard .chat-messages .chat-convo .chat-convo-head .media {
