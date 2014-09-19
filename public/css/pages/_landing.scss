@@ -8,6 +8,16 @@
     display:none;
   }
 
+  .modal{
+    h2{
+      font-size:em(24, $text-size-base);
+      color:$color-text;
+      margin:8px 0px 12px 0px;
+    }
+    .button-controls{
+      text-align: right;
+    }
+  }
   h2{
     font-size:em(32, $text-size-base);
     color:$color-brand-orange;

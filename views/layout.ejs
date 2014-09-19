@@ -35,6 +35,7 @@
     <script type="text/javascript" src="/js/services/loadServices.js"></script>
     <script type="text/javascript" src="/js/services/countryServices.js"></script>
     <script type="text/javascript" src="/js/controller/dashboardController.js"></script>
+    <script type="text/javascript" src="/js/controller/landingController.js"></script>
     <script type="text/javascript" src="/js/controller/calendarController.js"></script>
     <script type="text/javascript" src="/js/controller/attendanceListController.js"></script>
     <script type="text/javascript" src="/js/controller/myClassesController.js"></script>
@@ -79,7 +80,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="javascript:void(0)" target="_self" class="btn-login">Log In</a></li>
+                    <li><a href="javascript:void(0)" target="_self" ng-click="loginModal()">Log in</a></li>
+                    <li><a href="javascript:void(0)" target="_self" ng-click="signupModal()">Sign up</a></li>
+                    <li><a href="javascript:void(0)" target="_self" ng-click="schoolSignupModal()">School Sign up</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

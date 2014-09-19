@@ -1,12 +1,12 @@
 exports.dbConfig = function(){
     var dbConfig = new Object();
     //When development for eyeOrcas, use this
-    dbConfig.appName = 'eyex';
+    dbConfig.appName = 'inschool';
     dbConfig.username = 'ubuntu';
     dbConfig.password = 'astralink';
     dbConfig.host = 'eyex.eyeorcas.com';
     dbConfig.port = '5432';
-    dbConfig.db = 'eyex';
+    dbConfig.db = 'inschool';
 
     return dbConfig;
 }

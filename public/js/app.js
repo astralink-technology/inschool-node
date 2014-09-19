@@ -12,6 +12,7 @@ angular.module('inSchoolApp', [
    , 'inSchoolApp.loadServices'
    , 'inSchoolApp.countryServices'
    , 'inSchoolApp.dashboardController'
+   , 'inSchoolApp.landingController'
    , 'inSchoolApp.attendanceListController'
    , 'inSchoolApp.calendarController'
    , 'inSchoolApp.myClassesController'

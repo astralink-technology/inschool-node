@@ -30,7 +30,10 @@ exports.connectAndQuery = function(req, res, queryString, variables, afterQueryF
                     });
                     return;
                 }else{
-                    if(afterQueryFunction){
+                    if(afterQueryFunction == 'noReturn'){
+                        //do not return anything.
+                        console.log('noReturn');
+                    }else if (afterQueryFunction){
                         afterQueryFunction(result);
                     }else{
                         res.json({

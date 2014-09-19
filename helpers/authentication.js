@@ -61,11 +61,10 @@ function startUserSession(req, res, entityDetails){
     req.session.firstName = entityDetails.rows[0].first_name;
     req.session.lastName = entityDetails.rows[0].last_name;
     req.session.name = entityDetails.rows[0].name;
-    req.session.status = entityDetails.rows[0].status;
     req.session.approved = entityDetails.rows[0].approved;
     req.session.entityId = entityDetails.rows[0].entity_id;
     req.session.authenticationId = entityDetails.rows[0].authentication_id;
-    req.session.authorizationLevel = entityDetails.rows[0].authorization_level;
+    req.session.authorizationLevel = entityDetails.rows[0].authorization_level;08
 }
 
 //directly authenticateUser and create a new session without the need for logging in
@@ -128,10 +127,17 @@ exports.authenticate = function(req, res, userString, pass, legacy, callback){
                 var authenticated = cryptHelper.decrypt(req, res, pass, userHash);
                 if (authenticated){
                     getEntityDetails(req, res, authenticationId, function(entityDetails){
-                        if (callback){
-                            callback(true, entityDetails);
+                        //if account is disabled, user cannot log in
+                        if (entityDetails.rows[0].disabled){
+                            if (callback){
+                                callback('disabled');
+                            }
+                        }else{
+                            startUserSession(req, res, entityDetails);
+                            if (callback){
+                                callback(true, entityDetails);
+                            }
                         }
-                        startUserSession(req, res, entityDetails);
                     });
                     updateAuthenticationLastLogIn(req, res, authenticationId);
                 }else{
@@ -201,7 +207,7 @@ exports.newAuthentication = function(req, res, userString, pass, firstName, last
                         dbConnectHelper.connectAndQuery(
                             req
                             , res
-                            , 'SELECT * FROM  add_entity($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)'
+                            , 'SELECT * FROM  add_entity($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15)'
                             , [
                                 entityId
                                 , firstName
@@ -217,6 +223,7 @@ exports.newAuthentication = function(req, res, userString, pass, firstName, last
                                 , null
                                 , null
                                 , null
+                                , 't'
                             ],
                             function(){
                                 //after creating both the authentication and entity, return the entity detail
